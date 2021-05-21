@@ -1,6 +1,6 @@
 package com.bridgelabz.linecomparison;
 import java.util.Scanner;
-public class LineGeometry {
+public class LineGeometryOops {
 	int x1 = 0;
 	int x2 = 0;
 	int y1 = 0;
@@ -10,11 +10,10 @@ public class LineGeometry {
 	}
 	public static void main(String args[]) {
 	
-		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 	
 		
-		LineGeometry l1 = new LineGeometry();
+		LineGeometryOops l1 = new LineGeometryOops();
 		System.out.println("Enter the value of x1 and y1 of Line 1");
 		l1.x1 = scanner.nextInt();
 		l1.y1 = scanner.nextInt();
@@ -24,7 +23,7 @@ public class LineGeometry {
 		double LenghtOfLine1 =l1.calculateLength();
 		System.out.println("Length of Line1 = " + LenghtOfLine1 );
 		
-		LineGeometry l2 = new LineGeometry();
+		LineGeometryOops l2 = new LineGeometryOops();
 		System.out.println("Enter the value of x1 and y1 of Line2");
 		l2.x1 = scanner.nextInt();
 		l2.y1 = scanner.nextInt();
